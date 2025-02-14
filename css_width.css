@@ -1,0 +1,34 @@
+body{background-color: rgb(69, 173, 179);
+}
+
+div.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(16, 95, 121);
+}
+
+nav{
+    width: 20%;
+    height: 800px;
+    background: rgb(37, 108, 159);
+    float: left;
+}
+
+div.content{
+    width: 80%;
+    height: 800px;
+    background: rgb(18, 85, 161);
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background: rgb(28, 96, 163);
+    float: left;
+}
