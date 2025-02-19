@@ -1,0 +1,43 @@
+.btn-red{ padding: 10px; background: red; color: antiquewhite;}
+.btn-blue{ padding: 10px; background: blue; color: antiquewhite;}
+.btn-green{ padding: 10px; background: green; color: antiquewhite;}
+.solid {
+    border-style: solid; border-width: 4px; border-color: blue;
+}
+.dotted {
+    border-style: dotted; border-width: 4px; border-color: rgb(0, 0, 0);
+}
+.double {
+    border-style: double; border-width: 4px; border-color: blue;
+}
+.ridge{
+    border-style: ridge; border-width: 4px; border-color: black;
+}
+.inset{
+    border-style: inset; border-width: 4px;
+}
+.outset{
+    border-style: outset; border-width: 4px;
+}
+.round{
+    border-radius: 20px;
+}
+.maroon {color: maroon;}
+.navy {color: navy;}
+.indigo {color: indigo;}
+.spacing {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+.uppercase {text-transform: uppercase;}
+.lowercase {text-transform: lowercase;}
+.capitalize {text-transform: capitalize;}
+.paragraf {font-family: 'Courier New', Courier, monospace; font-size: 20px;}
+.ul {
+    list-style-type: circle;
+}
+.li {
+    font-family: "Tahoma";
+    font-size: 15px;
+}
