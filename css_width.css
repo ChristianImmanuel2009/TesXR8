@@ -1,34 +1,65 @@
-body{background-color: rgb(69, 173, 179);
+body {
+    background-color: rgb(255, 255, 255);
 }
 
-div.container{
+div.container {
     margin: 0 auto;
     width: 90%;
 }
 
-header{
+/* .bgcolor1 {
+    background-color: rgb(53, 143, 178);
+}
+.bgcolor2 {
+    background-color: rgb(42, 112, 141);
+}
+.bgcolor3 {
+    background-color: rgb(33, 86, 111);
+} */
+
+header {
     width: 100%;
-    height: 120px;
-    background-color: rgb(16, 95, 121);
+    height: 50px;
+    background-color: #0f2c4b;
+}
+.menu{margin: 0;width: 100%;position: sticky;}
+nav{width: 10%; height: 4000%; background: #e7fbb4;}
+ul.vertical{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #103151cd;
+}
+ul.vertical li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    text-align: left;
+}
+ul.vertical li a:hover{ 
+    background-color: #0e2b48;
+    color: white;
 }
 
-nav{
+nav {
     width: 20%;
-    height: 800px;
-    background: rgb(37, 108, 159);
+    height: 1250px;
+    background: #103151cd;
     float: left;
 }
 
-div.content{
-    width: 80%;
+div.content {
+    margin: 20%;
+    width: 90%;
     height: 800px;
-    background: rgb(18, 85, 161);
-    float: right;
+    background: #505458;
 }
 
-footer{
+footer {
     width: 100%;
-    height: 100px;
-    background: rgb(28, 96, 163);
+    height: 50px;
+    background: rgb(16, 48, 81);
     float: left;
 }
